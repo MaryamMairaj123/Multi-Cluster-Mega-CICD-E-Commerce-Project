@@ -1,6 +1,3 @@
-# Task Master Pro
-
-Welcome to Task Master Pro, a comprehensive Java application designed to manage tasks efficiently. This project is developed and maintained by DevOps Shack, a YouTube channel dedicated to DevOps tutorials and best practices.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,7 +10,7 @@ Welcome to Task Master Pro, a comprehensive Java application designed to manage 
 
 ## Introduction
 
-Task Master Pro is a task management application built using Java. It provides a robust set of features to help users create, manage, and track tasks. This project aims to demonstrate best practices in Java development, including project structure, coding standards, and documentation.
+Task Master Pro is a task management application built using Java. It provides robust features to help users create, manage, and track tasks. This project aims to demonstrate best practices in Java development, including project structure, coding standards, and documentation.
 
 ## Features
 
@@ -34,8 +31,8 @@ Task Master Pro is a task management application built using Java. It provides a
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/jaiswaladi246/Task-Master-Pro.git
-    cd Task-Master-Pro
+    git clone https://github.com/MaryamMairaj123/Multi-Cluster-Mega-CICD-E-Commerce-Project.git
+    cd Multi-Cluster-Mega-CICD-E-Commerce-Project
     ```
 
 2. Configure the database:
@@ -56,7 +53,7 @@ Task Master Pro is a task management application built using Java. It provides a
 
 ## Usage
 
-Once the application is running, you can access it at `http://localhost:8080`. You can use the web interface to manage your tasks.
+Once the application runs, you can access it at `http://localhost:8080`. You can use the web interface to manage your tasks.
 
 ### Endpoints
 
@@ -83,7 +80,7 @@ We welcome contributions to improve Task Master Pro. If you have a feature reque
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-
-For any questions or inquiries, please reach out to us at [DevOps Shack](https://www.youtube.com/@devopsshack/videos)
+maryammairaj53@gmail.com
+https://www.linkedin.com/in/maryam-mairaj-0161a2176/ 
 
 Happy coding!
