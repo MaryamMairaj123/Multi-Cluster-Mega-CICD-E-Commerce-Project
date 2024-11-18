@@ -8,7 +8,7 @@ spec:
       app: taskmaster
   replicas: 2 # Number of replicas that will be created for this deployment
   template:
-    metadata:
+    metadata: 
       labels:
         app: taskmaster
     spec:
