@@ -1,3 +1,5 @@
+##
+Task Master Pro Application
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -80,7 +82,9 @@ We welcome contributions to improve Task Master Pro. If you have a feature reque
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
-maryammairaj53@gmail.com
+
+maryammairaj53@gmail.com, 
+
 https://www.linkedin.com/in/maryam-mairaj-0161a2176/ 
 
 Happy coding!
