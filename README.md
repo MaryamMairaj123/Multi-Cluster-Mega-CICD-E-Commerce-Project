@@ -33,8 +33,8 @@ Task Master Pro is a task management application built using Java. It provides r
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/MaryamMairaj123/Multi-Cluster-Mega-CICD-E-Commerce-Project.git
-    cd Multi-Cluster-Mega-CICD-E-Commerce-Project
+    git clone https://github.com/MaryamMairaj123/Multi-Cluster-Mega-CICD-Task-Master-Pro.git
+    cd Multi-Cluster-Mega-CICD-Task-Master-Pro
     ```
 
 2. Configure the database:
