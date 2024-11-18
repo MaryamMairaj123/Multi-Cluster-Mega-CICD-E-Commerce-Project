@@ -1,5 +1,5 @@
-##
-Task Master Pro Application
+
+## Task Master Pro Application
 
 ## Table of Contents
 - [Introduction](#introduction)
