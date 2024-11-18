@@ -1,36 +1,34 @@
 apiVersion: apps/v1
-kind: Deployment # Kubernetes resource kind we are creating
+kind: Deployment  # Kubernetes resource kind we are creating
 metadata:
   name: taskmaster-deployment
 spec:
   selector:
     matchLabels:
       app: taskmaster
-  replicas: 2 # Number of replicas that will be created for this deployment
+  replicas: 2  # Number of replicas for this deployment
   template:
-    metadata: 
+    metadata:
       labels:
         app: taskmaster
     spec:
       containers:
         - name: taskmaster
-          image: maryammairaj/devtaskmaster:latest # Image that will be used to containers in the cluster
-          imagePullPolicy: Always
+          image: maryammairaj/devtaskmaster:latest  # Docker image to use for the container
+          imagePullPolicy: Always  # Always pull the latest image
           ports:
-            - containerPort: 8080 # The port that the container is running on in the cluster
+            - containerPort: 8080  # The port the container exposes inside the pod
 
-
----
-
-apiVersion: v1 # Kubernetes API version
-kind: Service # Kubernetes resource kind we are creating
-metadata: # Metadata of the resource kind we are creating
-  name: taskmaster-ssvc
+            
+apiVersion: v1  # Kubernetes API version
+kind: Service  # Kubernetes resource kind we are creating
+metadata:
+  name: taskmaster-service  # Descriptive name for the service
 spec:
   selector:
-    app: taskmaster
+    app: taskmaster  # Selector to match the app label
   ports:
-    - protocol: "TCP"
-      port: 80
-      targetPort: 8080 
-  type: LoadBalancer # type of the service.
+    - protocol: TCP
+      port: 80  # Exposes port 80 on the service
+      targetPort: 8080  # Forwards traffic to port 8080 on the container
+  type: LoadBalancer  # Type of service to expose the deployment externally
