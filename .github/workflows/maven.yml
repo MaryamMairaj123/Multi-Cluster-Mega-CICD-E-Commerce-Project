@@ -36,7 +36,7 @@ jobs:
     
     - name: Build Docker Image 
       run: | 
-      docker build -t maryammairaj/devtaskmaster:latest . 
+        docker build -t maryammairaj/devtaskmaster:latest . 
 
     - name: Trivy Image Scan 
       run: trivy image --format table -o image.html maryammairaj/devtaskmaster:latest 
@@ -49,14 +49,14 @@ jobs:
     
     - name: Push Docker Image
       run: | 
-      docker push maryammairaj/devtaskmaster:latest 
+        docker push maryammairaj/devtaskmaster:latest 
     
     - name: Kubectl Action 
       uses: tale/kubectl-action@v1 
       with: 
         base64-kube-config: ${{ secrets.KUBE_CONFIG }} 
     - run: | 
-      kubectl apply -f deployment-service.yml
+        kubectl apply -f deployment-service.yml
 
 
    
