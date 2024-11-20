@@ -1,7 +1,7 @@
-![Untitled Diagram drawio (3) - Copy](https://github.com/user-attachments/assets/3402623f-314e-43b9-99cf-840aa2728cda)
 ## Task Master Pro Application
 
 ![Untitled Diagram](https://github.com/user-attachments/assets/ab786e84-2911-41c6-b657-035cf37ffdc7) 
+![architecture drawio](https://github.com/user-attachments/assets/7448d668-e64f-45bf-b59c-2796a0ec25cf)
 
 ## Table of Contents
 - [Introduction](#introduction)
