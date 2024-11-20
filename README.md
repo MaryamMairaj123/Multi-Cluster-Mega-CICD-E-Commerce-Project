@@ -1,6 +1,5 @@
 ## Task Master Pro Application
 
-![Untitled Diagram](https://github.com/user-attachments/assets/ab786e84-2911-41c6-b657-035cf37ffdc7) 
 ![architecture drawio](https://github.com/user-attachments/assets/7448d668-e64f-45bf-b59c-2796a0ec25cf)
 
 ## Table of Contents
