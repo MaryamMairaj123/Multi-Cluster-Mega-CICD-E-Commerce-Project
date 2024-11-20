@@ -1,4 +1,4 @@
-![Untitled Diagram drawio (3)](https://github.com/user-attachments/assets/ceb2ed61-1d70-4595-9672-927a71b7ee0f)
+![Untitled Diagram drawio (3) - Copy](https://github.com/user-attachments/assets/3402623f-314e-43b9-99cf-840aa2728cda)
 ## Task Master Pro Application
 
 ![Untitled Diagram](https://github.com/user-attachments/assets/ab786e84-2911-41c6-b657-035cf37ffdc7) 
